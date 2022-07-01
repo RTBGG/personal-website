@@ -105,11 +105,14 @@
 
   <footer class="footer mt-auto py-3">
     <div class="container" style="text-align: center;">
-      <span class="text-muted">Copyright &copy; 2019-2022 by RTB</span>
+      <span class="text-muted">Copyright &copy; 2019-<span id="year"></span> by RTB</span>
     </div>
   </footer>
 
 
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = (new Date().getFullYear());
+  </script>
 </body>
 </html>
