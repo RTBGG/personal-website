@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RTB1337 | Home</title>
+    <title>RTB | Home</title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/background.css" rel="stylesheet">
+    <link href="/assets/css/embed.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column vh-100">
   <header>
@@ -25,8 +27,8 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Playlists</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC?si=635ee18dc73245f1" target="_blank">Spotify</a>
-                    <a class="dropdown-item" href="https://youtube.com/playlist?list=PL3eWAYu7azRMFpsvyYgOhtONdEpKyGODq" target="_blank">YouTube</a>
+                    <a class="dropdown-item" href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC" target="_blank">Spotify</a>
+                    <a class="dropdown-item" href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc" target="_blank">YouTube</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,7 +43,7 @@
                 </li>
               </ul>
           </div>
-          <a class="navbar-brand order-first order-md-0 mx-0" href="/">RTB1337</a>
+          <a class="navbar-brand order-first order-md-0 mx-0" href="/">RTB</a>
           <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarColor02">
               <ul class="nav navbar-nav ml-auto">
                   <li class="nav-item">
@@ -52,15 +54,22 @@
       </div>
     </nav>
   </header>
-  
+
+  <div id="particles-js"></div>
+
   <div class="jumbotron">
     <div class="container" style="text-align: center; padding-top: 60px;">
       <h1 class="display-4">Welcome to my Website!</h1>
-      <p class="lead">Soon there might be content here...<br>
-      Until then, you can have a look at my <a href="/about-me/">About Me</a> page.</p>
+      <p class="lead">Gaming, Tech Enthusiast & Music Enjoyer: <a href="/about-me/">About Me / Contact</a><br>
+       Listen to my playlist: <a href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC?si=635ee18dc73245f1">Spotify</a>, <a href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc">YouTube</a><br></p>
     </div>
   </div>
 
+  <div class="video-container-wrapper">
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3eWAYu7azROdY2NRDNUhDxvUdaaegWeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
 
   <footer class="footer mt-auto py-3">
     <div class="container" style="text-align: center;">
@@ -70,8 +79,8 @@
 
 
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById("year").innerHTML = (new Date().getFullYear());
-  </script>
+  <script src="/assets/js/particles.min.js"></script>
+  <script src="/assets/js/background.js"></script>
+  <script src="/assets/js/footer-year.js"></script>
 </body>
 </html>
