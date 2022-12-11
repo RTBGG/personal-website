@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RTB | About Me</title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/background.css" rel="stylesheet">
-    <link href="/assets/css/embed.css" rel="stylesheet">
+    <link href="/assets/css/additional-styling.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column vh-100">
   <header>
@@ -18,20 +17,39 @@
           </button>
 
           <div class="collapse navbar-collapse w-100" id="navbarColor02">
-              <ul class="nav navbar-nav w-100">
+              <ul class="nav navbar-nav w-100 ">
                 <li class="nav-item">
-                  <a class="nav-link" href="/">Home 
+                  <a class="nav-link d-inline-flex align-items-center" href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                      <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                      <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                    </svg>                   
+                    &nbsp;Home
                   </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Playlists</a>
+                  <a class="nav-link dropdown-toggle d-inline-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                      <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                      <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                      <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                      <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                    &nbsp;Playlists
+                  </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC" target="_blank">Spotify</a>
                     <a class="dropdown-item" href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc" target="_blank">YouTube</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Games</a>
+                  <a class="nav-link dropdown-toggle d-inline-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
+                      <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"/>
+                      <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"/>
+                    </svg>
+                    &nbsp;Games
+                  </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="/games/tetris/" target="_blank">Tetris</a>
                     <a class="dropdown-item" href="/games/pacman/" target="_blank">Pacman</a>
@@ -46,8 +64,13 @@
           <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarColor02">
               <ul class="nav navbar-nav ml-auto">
                   <li class="nav-item">
-                      <a class="nav-link active" href="/about-me/">About Me / Contact
-                        <span class="visually-hidden">(current)</span> 
+                      <a class="nav-link active d-inline-flex align-items-center" href="/about-me/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                          <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                          <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        &nbsp;About Me
+                        <span class="visually-hidden">(current)</span>  
                       </a>
                   </li>
               </ul>
@@ -58,26 +81,23 @@
   
   <div id="particles-js"></div>
 
-  <div class="jumbotron">
-    <div class="container" style="text-align: center; padding-top: 60px;">
+  <div class="jumbotron container lead" style="text-align: center">
       <h1 class="display-4">About Me</h1>
-      <p class="lead">Hey, I am Daniel alias RTB. I am 23 years old and a tech enthusiast, mainly interested in Gaming, Music, PC Hardware and Webhosting.</p>
-    </div>
+      <p>Hey, I am Daniel alias RTB. I am 23 years old and a tech enthusiast, mainly interested in Gaming, Music, PC Hardware, Web Development and Webhosting.</p>
+      <br>
   </div>
-  <br>
   <div class="container lead">
-    <h5 class="display-6">Questions & Answers:</h5>
-    <br>
+    <h4>Questions & Answers:</h4>
     <details>
         <summary>What does RTB stand for?</summary>
         RTB is short for Rock That Body, which is a old song by the Black Eyed Peas.<br>
-        Back then I really liked the Skrillex remix of it, which is why I named myself RockThatBodyGER in lots of games back in 2011. The GER is there cause the name was taken otherwise.<br>
-        And if you haven't guessed - I'm from germany. ¯\_(ツ)_/¯<br>
+        Back in 2011 I really liked the Skrillex remix of it, which is why I named myself RockThatBodyGER in lots of games during that time.<br>
+        Later I changed this to RockThatBody69, RTB69 or RTB1337. Now I use only RTB as my username if its available.<br>
     </details>
     <br>
     <details>
         <summary>What do you personally use this domain and website for?</summary>
-        I use this website mainly as a screenshot server with ShareX and YOURLS as a URL Shortener.<br>
+        I use it mainly as a screenshot server with ShareX (XBackBone), YOURLS as a URL Shortener and various other cool self-hosted free opensource software.<br>
     </details>
     <br>
     <details>
@@ -92,13 +112,23 @@
     </details>
     <br>
     <details>
-        <summary>What do you play most of the time?</summary>
+        <summary>What game do you play most of the time?</summary>
         League of Legends - I am a Master Yi Main btw<br>
     </details>
-    <br><br>
-    <h5 class="display-6">Contact:</h5><br>
-    <p>Discord: RTB#0001</p>
-    <p>Telegram: <a href="https://t.me/rtb1337" target="_blank">@RTB1337</a></p>
+    <br>
+    <h4>Contact me:</h4>
+    <p class="d-inline-flex align-items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+      <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+      </svg>
+      &nbsp;RTB#0001
+    </p>
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+      </svg>
+      <a href="https://t.me/rtb1337" target="_blank">@RTB1337</a>
+    </p>
   </div>
 
 

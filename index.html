@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RTB | Home</title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/background.css" rel="stylesheet">
-    <link href="/assets/css/embed.css" rel="stylesheet">
+    <link href="/assets/css/additional-styling.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column vh-100">
   <header>
@@ -18,21 +17,40 @@
           </button>
 
           <div class="collapse navbar-collapse w-100" id="navbarColor02">
-              <ul class="nav navbar-nav w-100">
+              <ul class="nav navbar-nav w-100 ">
                 <li class="nav-item">
-                  <a class="nav-link active" href="/">Home
+                  <a class="nav-link active d-inline-flex align-items-center" href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                      <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                      <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                    </svg>                   
+                    &nbsp;Home
                     <span class="visually-hidden">(current)</span>  
                   </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Playlists</a>
+                  <a class="nav-link dropdown-toggle d-inline-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                      <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                      <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                      <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                      <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                    &nbsp;Playlists
+                  </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC" target="_blank">Spotify</a>
                     <a class="dropdown-item" href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc" target="_blank">YouTube</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Games</a>
+                  <a class="nav-link dropdown-toggle d-inline-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
+                      <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"/>
+                      <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"/>
+                    </svg>
+                    &nbsp;Games
+                  </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="/games/tetris/" target="_blank">Tetris</a>
                     <a class="dropdown-item" href="/games/pacman/" target="_blank">Pacman</a>
@@ -47,7 +65,13 @@
           <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarColor02">
               <ul class="nav navbar-nav ml-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="/about-me/">About Me / Contact</a>
+                      <a class="nav-link d-inline-flex align-items-center" href="/about-me/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                          <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                          <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        &nbsp;About Me
+                      </a>
                   </li>
               </ul>
           </div>
@@ -57,12 +81,10 @@
 
   <div id="particles-js"></div>
 
-  <div class="jumbotron">
-    <div class="container" style="text-align: center; padding-top: 60px;">
-      <h1 class="display-4">Welcome to my Website!</h1>
-      <p class="lead">Gaming, Tech Enthusiast & Music Enjoyer: <a href="/about-me/">About Me / Contact</a><br>
-       Listen to my playlist: <a href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC">Spotify</a>, <a href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc">YouTube</a><br></p>
-    </div>
+  <div class="jumbotron" style="text-align: center">
+    <h1 class="display-4">Welcome to my Website!</h1>
+    <p class="lead">Gaming, Tech Enthusiast & Music Enjoyer: <a href="/about-me/">About Me</a><br>
+     Listen to my playlist: <a href="https://open.spotify.com/playlist/4XnBCYR0qjcUqnnY7ivUDC">Spotify</a>, <a href="https://youtube.com/playlist?list=PL3eWAYu7azRNZqotjmXKWEPfY8h1HJddc">YouTube</a><br></p>
   </div>
 
   <div class="video-container-wrapper">
