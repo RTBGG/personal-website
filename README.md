@@ -13,6 +13,12 @@ Feel free to use this as a template for your own personal website!
 
 Using HTML as a base allows this website to be hosted for free via Cloudflare Pages for example.
 
+## Included Games:
+- [Tetris](https://github.com/sandywalker/Tetris)
+- [Pacman](https://github.com/daleharvey/pacman)
+- [2048](https://github.com/gabrielecirulli/2048)
+- [Advanced Tic Tac Toe](https://github.com/Supsource/Advanced-Tic-Tac-Toe/)
+
 ## Screenshots:
 
 ### Home
