@@ -1,6 +1,6 @@
 # Personal Website
 
-I host this website via Cloudflare Pages on these 2 domains: https://rtb1337.com & https://rtb69.com.
+I host this repository via Cloudflare Pages on these domains: https://rtb.gg, https://rtb1337.com and https://rtb69.com.
 
 Feel free to use this as a template for your own personal website!
 
