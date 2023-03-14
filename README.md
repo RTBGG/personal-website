@@ -18,6 +18,7 @@ Using HTML as a base allows this website to be hosted for free via Cloudflare Pa
 - [Pacman](https://github.com/daleharvey/pacman)
 - [2048](https://github.com/gabrielecirulli/2048)
 - [Radius Raid](https://github.com/jackrugile/radius-raid-js13k)
+- [Hextris](https://github.com/Hextris/hextris)
 - [Advanced Tic Tac Toe](https://github.com/Supsource/Advanced-Tic-Tac-Toe/)
 
 ## Screenshots:
