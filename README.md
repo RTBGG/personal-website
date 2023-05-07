@@ -24,7 +24,7 @@ Using HTML as a base allows this website to be hosted for free via Cloudflare Pa
 ## Screenshots:
 
 ### Home
-![Home](https://share.rtb.cx/XutE1/HOPAJUMi87.jpg/raw)
+![Home](https://share.rtb.gg/file/2023/05/firefox_y3WnWtmPVu.jpg)
 
 ### About Me
-![About Me](https://share.rtb.cx/XutE1/miHAZOVi81.png/raw)
+![About Me](https://share.rtb.gg/file/2023/05/firefox_y0O5JloHqm.png)
