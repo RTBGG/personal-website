@@ -11,7 +11,7 @@ Feel free to use this as a template for your own personal website!
 - [Bootstrap-Icons](https://icons.getbootstrap.com/)
 - [particles.js](https://vincentgarreau.com/particles.js/)
 
-Using HTML as a base allows this website to be hosted for free via Cloudflare Pages for example.
+Using HTML as a base allows this website to be hosted for free via Cloudflare Pages (unmetered requests/month) or similar solutions.
 
 ## Included Games:
 - [Tetris](https://github.com/sandywalker/Tetris)
