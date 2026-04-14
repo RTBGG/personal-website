@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0d0f10;
+  color: #e9f8e0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.game-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  margin: 0.4rem 0;
+}
+
+.subtitle {
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.language-switch {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.lang-btn {
+  min-width: 52px;
+  padding: 0.35rem 0.5rem;
+}
+
+.lang-btn.active {
+  border-color: #8b7a2d;
+  background: #2f2b18;
+}
+
+.ascii-art,
+.log-feed,
+.stats {
+  background: #131718;
+  border: 1px solid #2b3436;
+  border-radius: 6px;
+  padding: 0.75rem;
+}
+
+.ascii-art {
+  min-height: 210px;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.stats {
+  margin-top: 0.75rem;
+}
+
+.actions {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+button {
+  background: #1f2628;
+  color: #e9f8e0;
+  border: 1px solid #3f4f53;
+  padding: 0.5rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background: #2b3437;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.danger {
+  border-color: #7a3838;
+}
+
+.prestige {
+  border-color: #8b7a2d;
+}
+
+.shop,
+.log {
+  margin-top: 1rem;
+}
+
+#shop-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+.shop-item {
+  border: 1px solid #314044;
+  border-radius: 6px;
+  padding: 0.6rem;
+  background: #151b1d;
+}
+
+.shop-item p {
+  margin: 0.2rem 0;
+}
+
+.shop-item.purchase-flash {
+  border-color: #7cae76;
+}
+
+.shop-item .purchase-ok {
+  background: #2b4b2d;
+  border-color: #7cae76;
+}
+
+.log-feed {
+  min-height: 180px;
+  max-height: 250px;
+  overflow-y: auto;
+}

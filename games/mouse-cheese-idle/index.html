@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mouse Cheese Idle</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1 id="game-title">Mouse Cheese Idle</h1>
+      <p class="subtitle" id="game-subtitle">ASCII Idle in the style of Paperclips</p>
+      <div class="language-switch" aria-label="Language switcher">
+        <button id="lang-de-btn" class="lang-btn" type="button">DE</button>
+        <button id="lang-en-btn" class="lang-btn" type="button">EN</button>
+      </div>
+
+      <pre id="ascii-art" class="ascii-art" aria-live="polite"></pre>
+
+      <section class="stats" id="stats-panel"></section>
+
+      <section class="actions">
+        <button id="click-btn">Nibble (+Cheese)</button>
+        <button id="save-btn">Save</button>
+        <button id="reset-btn" class="danger">Reset</button>
+        <button id="prestige-btn" class="prestige">Prestige: Instinct</button>
+      </section>
+
+      <section class="shop">
+        <h2 id="shop-title">Shop</h2>
+        <div id="shop-list"></div>
+      </section>
+
+      <section class="log">
+        <h2 id="log-title">Event Log</h2>
+        <pre id="log-feed" class="log-feed"></pre>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
